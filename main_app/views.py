@@ -9,3 +9,9 @@ from django.utils.decorators import method_decorator
 
 class Home(TemplateView):
     template_name = "home.html"
+
+class About(TemplateView):
+    template_name = "about.html"
+
+class ProjectList(TemplateView):
+    template_name = "project_list.html"
