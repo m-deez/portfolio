@@ -15,3 +15,6 @@ class About(TemplateView):
 
 class ProjectList(TemplateView):
     template_name = "project_list.html"
+
+class BlackJackAttack(TemplateView):
+    template_name = "bja.html"
