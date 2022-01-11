@@ -2,6 +2,36 @@
 {% block title %}BJA{% endblock  %}
 {% block content %}
 
-<h1>Battle Jack Attack</h1>
+<body>
+
+    <h1><strong>Black Jack Attack</strong></h1>
+    <br>
+    <p>
+        This game plays with normal Black Jack rules with a little twist. You aren't betting money, you are battling it out with a set number of hit points.
+            <br><br>
+        If you aren't sure how Black Jack works:
+            <br><br>
+        The game starts by you clicking on the deck, the game will draw 2 cards and add their values together. The values of cards are the number thats on the card. Jack, Queen, and King are all worth 10. An Ace is worth 11 points if the other cards in you hand total 10 or less. And an Ace is worth 1 point if the other cards in you hand total 11 or greater. If you hand total ever goes above 21 you bust, and your hand total becomes ZERO!
+            <br><br>
+        After the first 2 initial draws you may "hit" any amount of additional times. You may choose to "stand" at any time, which means you are done hitting and the Dealer may now draw cards.
+            <br><br>
+        When you are both done drawing cards you compare hand values. Who ever has the highest hand wins that round. This is where the twist comes in, the player with the lower score will take damage equal to the difference in hand values.
+            <br><br>
+        For example, if you have a hand value of 20 and the Dealer has a hand value of 18, the Dealer will take 2 damage.
+            <br><br>
+        Both the player and Dealer start at 50 hp and the first to 0 hp loses the game.
+            <br><br>
+        Also! Side note. The API I used will sometimes fail on their side, and it will not draw a card from the deck. I made the game in a way where you can go to the next hand with no repercussions when that happens. If you just continue to play the hand things will get... wacky.
+            <br><br>
+        Here is a link to the Git Hub page for <a href="https://github.com/m-deez/Black-Jack-Attack">Black Jack Attack</a>.
+    </p>
+    <img src="https://i.imgur.com/821aPF3.png" style="width: 49%;" />
+    <img src="https://i.imgur.com/1edinFM.png" style="width: 49%;" />
+    <br>
+    <p>
+        
+    </p>
+
+</body>
 
 {% endblock %}
