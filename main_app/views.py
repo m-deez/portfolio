@@ -18,3 +18,6 @@ class ProjectList(TemplateView):
 
 class BlackJackAttack(TemplateView):
     template_name = "bja.html"
+
+class WondrousCreations(TemplateView):
+    template_name = "wc.html"
