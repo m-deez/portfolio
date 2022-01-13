@@ -21,3 +21,12 @@ class BlackJackAttack(TemplateView):
 
 class WondrousCreations(TemplateView):
     template_name = "wc.html"
+
+class AlleyScoop(TemplateView):
+    template_name = "as.html"
+
+class ProjectWayfarer(TemplateView):
+    template_name = "pw.html"
+
+class PlentyOfNerds(TemplateView):
+    template_name = "pon.html"
