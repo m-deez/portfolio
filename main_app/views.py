@@ -7,9 +7,6 @@ from django.utils.decorators import method_decorator
 
 # Create your views here.
 
-class Home(TemplateView):
-    template_name = "home.html"
-
 class About(TemplateView):
     template_name = "about.html"
 
